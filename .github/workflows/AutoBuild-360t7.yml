@@ -4,7 +4,7 @@
 #   Author: Hyy2001X                                      #
 ###########################################################
 
-name: CMCC RAX3000M
+name: 360t7
 
 ### 界面控制部分 ( 以下内容请保持不变 )
 on:
@@ -13,7 +13,7 @@ on:
     inputs:
       Tempoary_IP:
         description: '固件 IP 地址 [可选]'
-        default: ''
+        default: '192.168.5.1'
       Tempoary_CONFIG:
         description: '配置文件 [可选]'
         default: ''
@@ -39,7 +39,7 @@ on:
 ### 环境变量设置
 env:
 # 编译时调用的 [.config] 文件名称
-  CONFIG_FILE: cmcc_rax3000m
+  CONFIG_FILE: 360t7
 # 源码仓库:分支
   DEFAULT_SOURCE: hanwckf/immortalwrt-mt798x:openwrt-21.02
 # 上传固件到 Github Releases
